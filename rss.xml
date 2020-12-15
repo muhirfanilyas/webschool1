@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+  <rss version="2.0"><channel> 
+				<title>RSS Selamat Datang di SMKN 9 PANGKEP</title> 
+				<description>website sekolah SMKN 9 PANGKEP</description>
+				<link>http://localhost/sekolah_ci</link> 
+				<language>id-id</language><item>
+						                <title>Persiapan PBM Selama COVID 19</title>
+						                <link>http://localhost/sekolah/berita/detail/persiapan-pbm-selama-covid-19</link>
+						                <description></description>
+					                </item><item>
+						                <title>Selamat Hari Guru 2020</title>
+						                <link>http://localhost/sekolah/berita/detail/selamat-hari-guru-2020</link>
+						                <description>SMK NEGERI 9 MENGUCAPKAN SELAMAT HARI GURU 2020
+
+BANGKITKAN  SEMANGAT WUJUDKAN MERDEKA  BELAJAR
+</description>
+					                </item><item>
+						                <title>Kompetensi Keahlian Usaha Perjalanan Wisata</title>
+						                <link>http://localhost/sekolah/berita/detail/kompetensi-keahlian-usaha-perjalanan-wisata</link>
+						                <description>Kompetensi Keahlian Usaha Perjalanan Wisata 
+</description>
+					                </item><item>
+						                <title>Wajah Baru SMKN 9 PANGKEP</title>
+						                <link>http://localhost/sekolah/berita/detail/wajah-baru-smkn-9-pangkep</link>
+						                <description></description>
+					                </item><item>
+						                <title>Foto Bersama Keluarga SMKN 9 PANGKEP</title>
+						                <link>http://localhost/sekolah/berita/detail/foto-bersama-keluarga-smkn-9-pangkep</link>
+						                <description>Foto Bersama Keluarga SMKN 9 PANGKEP
+</description>
+					                </item></channel>
+  	</rss>
