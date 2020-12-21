@@ -1,7 +1,7 @@
 
 <br>
 <div class="widget">
-	<h3>Profile Sekolah</h3>
+	<h3>Profil Sekolah</h3>
 	<ul style="padding:0px 15px 0px 15px" class="article-list">
 		<?php 
 			$sekolah1 = $this->model_app->view_where_ordering('halamanstatis',array('kelompok'=>'1'),'urutan','ASC');
@@ -13,7 +13,7 @@
 </div>
 
 <div class="widget">
-	<h3>Sarana dan Prasarana</h3>
+	<h3>Kompetensi Keahlian</h3>
 	<ul style="padding:0px 15px 0px 15px" class="article-list">
 		<?php 
 			$sekolah2 = $this->model_app->view_where_ordering('halamanstatis',array('kelompok'=>'2'),'urutan','ASC');
