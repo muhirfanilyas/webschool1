@@ -31,12 +31,13 @@
 			$sekilas = $this->model_utama->view_ordering_limit('sekilasinfo','id_sekilas','DESC',0,5);
 			foreach ($sekilas->result_array() as $row) {	
 			$tgl = tgl_indo($row['tgl_posting']);
+			$link_seo = $row['link_seo'];
 			echo "<li>
 					<div class='article-list'>
 						<span class='meta'>
 							<a href='#'><span class='icon-text'>🕔</span>$tgl</a>
 						</span>
-						<h4><a style='color:#000' href='#'>$row[info]</a></h4>
+						<h4><a style='color:#000' href='$link_seo'>$row[info]</a></h4>
 					</div>
 				  </li>";
 			}
