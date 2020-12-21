@@ -11,7 +11,10 @@
                   <table class='table table-condensed table-bordered'>
                   <tbody>
                     <input type='hidden' name='id' value=''>
-                    <tr><th scope='row' width='120px'>Tulis Info</th>             <td><textarea class='form-control' name='a' style='height:200px' required></textarea></td></tr>
+                    <tr><th scope='row' width='120px'>Tulis Info</th>
+                    <td><textarea class='form-control' name='a' style='height:200px' required></textarea></td></tr>
+                     <tr><th scope='row' width='120px'>Link</th>
+                      <td><input class='form-control' type='text' name='c' required></td></tr>
                     <tr><th scope='row'>Foto</th>                     <td><input type='file' class='form-control' name='b'></td></tr>
                   </tbody>
                   </table>

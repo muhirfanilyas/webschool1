@@ -1867,10 +1867,12 @@ class Administrator extends CI_Controller {
             $hasil=$this->upload->data();
             if ($hasil['file_name']==''){
                 $data = array('info'=>$this->input->post('a'),
+                              'link_seo'=>$this->input->post('c'),
                               'tgl_posting'=>date('Y-m-d'),
                               'aktif'=>'Y');
             }else{
                 $data = array('info'=>$this->input->post('a'),
+                                'link_seo'=>$this->input->post('c'),
                               'tgl_posting'=>date('Y-m-d'),
                               'gambar'=>$hasil['file_name'],
                               'aktif'=>'Y');
@@ -1894,9 +1896,11 @@ class Administrator extends CI_Controller {
             $hasil=$this->upload->data();
             if ($hasil['file_name']==''){
                 $data = array('info'=>$this->input->post('a'),
+                                'link_seo'=>$this->input->post('c'),
                               'aktif'=>$this->input->post('f'));
             }else{
                 $data = array('info'=>$this->input->post('a'),
+                              'link_seo'=>$this->input->post('c'),
                               'gambar'=>$hasil['file_name'],
                               'aktif'=>$this->input->post('f'));
             }
